@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="canvas.js"></script>
+</head>
+<body>
+	<canvas id="mycanvas" style="border:1px solid;" width="500px" height="500x" ></canvas>
+
+	<script type="text/javascript">
+		var canvas=document.getElementById('mycanvas');
+		console.log(canvas);
+
+		var context=canvas.getContext("2d");
+		context.beginPath();
+		context.moveTo(100,100);
+		context.lineTo(200,100);
+		context.stroke();
+
+
+		
+	</script>
+
+</body>
+</html>
